@@ -1,7 +1,7 @@
 # Mi Proyecto de Python: Clases y Objetos
 
-## ¿Cómo diseñé mi programa?
-Para este proyecto usé la **Programación Orientada a Objetos (POO)**. Básicamente, en lugar de tener un montón de código suelto, creé "moldes" llamados **Clases** para representar cosas de la vida real, como un Libro o una Cuenta de Banco.
+## ¿Cómo se diseño?
+Para este proyecto usamos la **Programación Orientada a Objetos (POO)**. Básicamente, en lugar de tener un montón de código suelto, creamos "moldes" llamados **Clases** para representar cosas de la vida real, como un Libro o una Cuenta de Banco.
 
 * **Clases:** Son los planos del programa (como el plano de una casa).
 * **Objetos:** Son las versiones reales de esos planos (como la casa ya construida).
@@ -10,10 +10,10 @@ Para este proyecto usé la **Programación Orientada a Objetos (POO)**. Básicam
 
 ---
 
-## ¿Cómo protegí la información? (Encapsulamiento)
-El encapsulamiento es como ponerle una clave a tus datos. No quería que cualquiera pudiera cambiar el saldo de una cuenta o el estado de un libro sin permiso.
+## ¿Cómo se protegio la información? (Encapsulamiento)
+El encapsulamiento es como ponerle una clave a tus datos. No dejar que cualquiera pudiera cambiar el saldo de una cuenta o el estado de un libro sin permiso.
 
-Para eso hice lo siguiente:
+Para eso se hizo lo siguiente:
 * **Atributos privados:** Les puse guiones (`_` o `__`) para que nadie los toque desde afuera de la clase.
 * **Getters y Setters:** Son como los guardias de seguridad. Permiten ver el dato, pero si alguien lo quiere cambiar, primero se revisa que sea un valor válido (por ejemplo, que no pongan saldos negativos).
 
