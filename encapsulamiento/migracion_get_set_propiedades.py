@@ -47,3 +47,30 @@ class ProductoV3:
         if valor < 0:
             raise ValueError("El precio no puede ser negativo")
         self._precio = valor
+
+# -------------------------
+# PRUEBAS
+
+# ProductoV1
+p1 = ProductoV1("Mouse", 50)
+print("ProductoV1:")
+print(p1.nombre)
+print(p1.precio)
+
+# ProductoV2
+p2 = ProductoV2("Teclado", 100)
+print("\nProductoV2:")
+print(p2.get_nombre())
+print(p2.get_precio())
+
+p2.set_precio(120)
+print("Nuevo precio:", p2.get_precio())
+
+# ProductoV3
+p3 = ProductoV3("Monitor", 300)
+print("\nProductoV3:")
+print(p3.nombre)
+print(p3.precio)
+
+p3.precio = 350
+print("Nuevo precio:", p3.precio)        

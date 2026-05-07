@@ -17,3 +17,6 @@ class Coche(Vehiculo):
             print(f"Modelo: {self.__modelo}")
         except AttributeError:
             print("No se puede acceder a __modelo desde la subclase")
+
+coche1 = Coche("Toyota", "Corolla", 4)
+coche1.info()            
